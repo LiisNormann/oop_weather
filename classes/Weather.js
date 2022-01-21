@@ -13,4 +13,8 @@ class Weather {
         //if the above function works, return me the data it gets
         return responseData;
     }
+    
+    changeCity(city) {
+        this.city = city
+    }
 }
